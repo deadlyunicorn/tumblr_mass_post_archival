@@ -24,7 +24,6 @@ export const getUserPostsFuture = async ({
       previousHeight = height;
     }
 
-    console.log(height, previousHeight);
     if (failedCounter === 3) break;
 
     await new Promise((res) => setTimeout(res, scrollPeriodInMs));

@@ -48,5 +48,5 @@ const main = async () => {
 };
 
 main();
-
+process.exitCode = 1;
 
